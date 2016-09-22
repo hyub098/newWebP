@@ -470,7 +470,7 @@ figure figcaption p {
 #contact-section .email,
 #contact-section .phone {
   text-align: center;
-  background: #F7F7F7;
+  background: red;
   padding: 20px 0 40px 0;
   margin-bottom: 20px;
 }
