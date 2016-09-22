@@ -50,6 +50,13 @@ $(document).ready(function() {
 			  paginationSpeed : 400,
 			  singleItem:true
 		});
+		// OwlCarousel N2
+		$("#owl-demo-2").owlCarousel({
+			  navigation : false, // Show next and prev buttons
+			  slideSpeed : 300,
+			  paginationSpeed : 400,
+			  singleItem:true
+		});
 
 		//SmothScroll
 		$('a[href*=#]').click(function() {
