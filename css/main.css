@@ -470,7 +470,7 @@ figure figcaption p {
 #contact-section .email,
 #contact-section .phone {
   text-align: center;
-  background: red;
+  background: rgba(0,0,0,0.075);
   padding: 20px 0 40px 0;
   margin-bottom: 20px;
 }
@@ -1084,4 +1084,16 @@ article {
   padding: 8px 0;
   color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (max-width: 991px) {
+    .rightFlow {
+      width: 100%
+    }
+}
+@media screen and (min-width: 991px) {
+    .rightFlow {
+        float:right;
+    }
 }
