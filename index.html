@@ -565,10 +565,8 @@ var wrap = $("#nav-head");
 window.onscroll = function (e) {  
 
 	if (this.scrollY > 650) {
-		if(this.screen.width < 768){
-			console.log(this.scrollY);
+		if(this.screen.width >= 768){
 			wrap.addClass("navbar-fix");
-
 		}
 	} else {
 		wrap.removeClass("navbar-fix");
