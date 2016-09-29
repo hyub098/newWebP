@@ -86,7 +86,7 @@
     </div>
 	
 	<!-- NavBar-->
-	<nav class="navbar-default" role="navigation">
+	<nav class="navbar-default" role="navigation" id="nav-head">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -95,16 +95,16 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#home">Yubin Huang</a>
+				<a class="navbar-brand" href="#home" style="margin-top: 10%">Yubin Huang</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					
-					<li class="menuItem"><a href="#whatis">Who am I</a></li>
-					<li class="menuItem"><a href="#useit">Experience</a></li>
-					<li class="menuItem"><a href="#skillset">Skillset</a></li>
-					<li class="menuItem"><a href="#contact">Contact</a></li>
+					<li class="menuItem" ><a href="#whatis" style="font-size: 1.2em;">Who am I</a></li>
+					<li class="menuItem"><a href="#useit" style="font-size: 1.2em;">Experience</a></li>
+					<li class="menuItem"><a href="#skillset" style="font-size: 1.2em;">Skillset</a></li>
+					<li class="menuItem"><a href="#contact" style="font-size: 1.2em;">Contact</a></li>
 				</ul>
 			</div>
 		   
@@ -130,13 +130,13 @@
 				<div class="col-sm-6 wow fadeInDown text-center">
 				  <img class="rotate" src="img/icon/coding.png" alt="Generic placeholder image">
 				  <h3>Software</h3>
-				  <p class="lead">Software related coming soon. </p>
+				  <p class="lead" style="text-align: justify;text-justify: inter-word;">&nbsp;&nbsp;&nbsp;&nbsp;I started coding in University, and I decided to make it my career since then. Software developing allows me to create anything I can think of inside digital world, the satisfying feeling of completing a product to serve people has always been my motivation.</p>
 
 				</div>
 				<div class="col-sm-6 wow fadeInDown text-center">
 				  <img class="rotate" src="img/icon/basketball.png" alt="Generic placeholder image">
 				  <h3>Basketball</h3>
-				  <p class="lead">Basketball/Social related coming soon. </p>
+				  <p class="lead" style="text-align: justify;text-justify: inter-word;">&nbsp;&nbsp;&nbsp;&nbsp;Basketball has been a big part of my life since age 10. I won multiple awards and championships across different social leagues in Auckland. Feel free to invite me to your basketball run.</p>
 
 				</div>
 				
@@ -556,3 +556,23 @@
 </body>
 
 </html>
+
+
+<script type="text/javascript">
+
+var wrap = $("#nav-head");
+
+window.onscroll = function (e) {  
+
+	if (this.scrollY > 650) {
+		if(this.screen.width < 768){
+			console.log(this.scrollY);
+			wrap.addClass("navbar-fix");
+
+		}
+	} else {
+		wrap.removeClass("navbar-fix");
+	}
+  
+} 
+</script>

@@ -60,12 +60,19 @@ a:hover {
   margin-bottom: 35px;
   font-weight: 300;
 }
+
 .pages {
   padding: 80px 0 40px;
 }
 .moduler {
   padding: 140px 0;
 }
+
+.navbar-fix{
+  top: 0;
+  position: fixed;
+}
+
 .navbar-default .navbar-nav > li > a:hover {
   color: #02bdd5;
 }
