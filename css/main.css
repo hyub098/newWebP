@@ -34,6 +34,10 @@ a:hover {
   text-align: center;
   margin-bottom: 65px;
 }
+.pContent{
+  text-align: justify;
+  text-justify: inter-word;
+}
 .section-heading p {
   font-size: 14px;
   font-weight: 300;
