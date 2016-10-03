@@ -1062,18 +1062,20 @@ color: #ECEBEB;
 	@media only screen and (max-height: 768px){
 		.abcen1{
 			top:-5%;
-			margin-left: 3%;
-		}
-		.abcen{
-			margin-left: 3%;
 		}
 	}
 	@media only screen and (min-height: 768px){
 		.abcen1{
 			top:20%;
-
 		}
-
+	}
+	@media only screen and (max-width: 768px){
+		.abcen1{
+			margin-left: 3%;
+		}
+		.abcen{
+			margin-left: 3%;
+		}
 	}
 	@media only screen and (max-width: 320px){
 		.abcen1{
@@ -1084,16 +1086,6 @@ color: #ECEBEB;
 			display: none;
 		}
 	}
-	/*@media only screen and (min-width: 320px){
-		.abcen1{
-			top:20%;
-		}
-	}*/
-
-
-
-
-
 	@media only screen and (max-width: 767px) {
 		.intro-header {
 			height: 100%;
