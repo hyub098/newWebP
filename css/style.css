@@ -1950,18 +1950,34 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   font-size: 24px;
   line-height: 1.042;
   font-weight: 700;
+  /*vertical-align: center;*/
 }
 .navbar-brand > [class*="fui-"] {
   font-size: 19px;
   line-height: 1.263;
   vertical-align: top;
 }
+
+@media only screen and (max-width: 768px){
+  .navbar-brand{
+    margin-left: 5%;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: #fff;
+  }
+}
+
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
     margin-left: -21px;
   }
+  .navbar-default .navbar-nav > li > a {
+    color: #34495e;
+  }
 }
+
+
 .navbar-toggle {
   border: none;
   color: #34495e;
@@ -1969,6 +1985,8 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   padding: 0 21px;
   height: 53px;
   line-height: 53px;
+  margin-top: 7%;
+  margin-right: 5%;
 }
 .navbar-toggle:before {
   color: #34495e;
@@ -2275,9 +2293,9 @@ select[multiple].navbar-form .btn {
   border-color: #e5e9ea;
   border-width: 2px;
 }
-.navbar-default .navbar-nav > li > a {
+/*.navbar-default .navbar-nav > li > a {
   color: #34495e;
-}
+}*/
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #1abc9c;
