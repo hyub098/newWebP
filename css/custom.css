@@ -113,6 +113,16 @@ padding: 8px 12px;
 	width: 100%;
 	height: auto;
 }
+
+/*  Owl */
+#oreowolves-demo .item{
+	margin: 4px;
+}
+#oreowolves-demo .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
 /* Footer */
 
 #footer{

@@ -43,6 +43,13 @@ $(document).ready(function() {
 			itemsDesktopSmall : [979,3]
 		});
 
+		// OwlCarousel N1
+		$("#oreowolves-demo").owlCarousel({
+			autoPlay: 3000,
+			items : 3,
+			itemsDesktop : [1199,3],
+			itemsDesktopSmall : [979,3]
+	  });
 		// OwlCarousel N2
 		$("#owl-demo-1").owlCarousel({
 			  navigation : false, // Show next and prev buttons
