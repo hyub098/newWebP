@@ -101,6 +101,15 @@ margin: auto;
   height: auto;
 }
 
+#oreowolves-demo .item{
+	margin: 3px;
+}
+#oreowolves-demo .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
 /*magnific */
 .mfp-bg {
 background: #000000 !important;
